@@ -1,0 +1,21 @@
+order_id,customer_id,product,category,quantity,price,order_date,status,total_amount
+1001,C001,Laptop,Electronics,1,899.99,2026-01-05,Completed,899.99
+1002,C002,Keyboard,Electronics,2,49.99,2026-01-06,Completed,99.98
+1003,C003,Office Chair,Furniture,1,249.99,2026-01-08,Pending,249.99
+1004,C001,Mouse,Electronics,2,29.99,2026-01-10,Completed,59.98
+1005,C004,Desk,Furniture,1,399.99,2026-01-12,Completed,399.99
+1006,C002,Monitor,Electronics,1,299.99,2026-01-15,Completed,299.99
+1007,C005,Headphones,Electronics,2,79.99,2026-01-18,Cancelled,159.98
+1008,C003,Desk Lamp,Home Office,1,39.99,2026-01-21,Completed,39.99
+1009,C006,Laptop,Electronics,1,1099.99,2026-02-02,Completed,1099.99
+1010,C001,Monitor,Electronics,2,279.99,2026-02-05,Completed,559.98
+1011,C007,Office Chair,Furniture,1,219.99,2026-02-08,Pending,219.99
+1012,C004,Keyboard,Electronics,1,59.99,2026-02-11,Completed,59.99
+1013,C005,Mouse,Electronics,3,24.99,2026-02-14,Completed,74.97
+1014,C006,Desk,Furniture,1,449.99,2026-02-18,Completed,449.99
+1015,C002,Headphones,Electronics,1,89.99,2026-02-22,Cancelled,89.99
+1016,C008,Laptop,Electronics,1,999.99,2026-03-01,Completed,999.99
+1017,C003,Monitor,Electronics,1,319.99,2026-03-04,Completed,319.99
+1018,C007,Desk Lamp,Home Office,2,44.99,2026-03-08,Completed,89.98
+1019,C001,Keyboard,Electronics,1,69.99,2026-03-12,Completed,69.99
+1020,C008,Office Chair,Furniture,1,269.99,2026-03-15,Pending,269.99
