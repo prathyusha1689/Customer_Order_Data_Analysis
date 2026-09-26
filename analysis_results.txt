@@ -1,0 +1,85 @@
+   order_id customer_id       product  ...  order_date     status  total_amount
+0      1001        C001        Laptop  ...  2026-01-05  Completed        899.99
+1      1002        C002      Keyboard  ...  2026-01-06  Completed         99.98
+2      1003        C003  Office Chair  ...  2026-01-08    Pending        249.99
+3      1004        C001         Mouse  ...  2026-01-10  Completed         59.98
+4      1005        C004          Desk  ...  2026-01-12  Completed        399.99
+
+[5 rows x 9 columns]
+Total Revenue: 6514.73
+category
+Electronics    4794.81
+Furniture      1589.95
+Home Office     129.97
+Name: total_amount, dtype: float64
+status
+Cancelled     249.97
+Completed    5524.79
+Pending       739.97
+Name: total_amount, dtype: float64
+status
+Completed    15
+Pending       3
+Cancelled     2
+Name: count, dtype: int64
+customer_id
+C001    1589.94
+C006    1549.98
+C008    1269.98
+C003     609.97
+C002     489.96
+C004     459.98
+C007     309.97
+C005     234.95
+Name: total_amount, dtype: float64
+product
+Laptop          2999.97
+Monitor         1179.96
+Desk             849.98
+Office Chair     739.97
+Headphones       249.97
+Keyboard         229.96
+Mouse            134.95
+Desk Lamp        129.97
+Name: total_amount, dtype: float64
+product
+Mouse           5
+Keyboard        4
+Monitor         4
+Desk Lamp       3
+Laptop          3
+Headphones      3
+Office Chair    3
+Desk            2
+Name: quantity, dtype: int64
+Average Order Value: 325.7365
+Highest Order Value: 1099.99
+   order_id customer_id product  ...  order_date     status  total_amount
+8      1009        C006  Laptop  ...  2026-02-02  Completed       1099.99
+
+[1 rows x 9 columns]
+Lowest Order Value: 39.99
+   order_id customer_id    product  ...  order_date     status  total_amount
+7      1008        C003  Desk Lamp  ...  2026-01-21  Completed         39.99
+
+[1 rows x 9 columns]
+Number of Unique Customers: 8
+customer_id
+C001    4
+C002    3
+C003    3
+C004    2
+C005    2
+C006    2
+C007    2
+C008    2
+Name: count, dtype: int64
+Average Revenue Per Customer: 814.34125
+status
+Cancelled     3.836997
+Completed    84.804589
+Pending      11.358414
+Name: total_amount, dtype: float64
+Total Orders: 20
+Completed Orders: 15
+Order Completion Rate: 75.0
